@@ -16,3 +16,22 @@
         Negative
 
 */
+#include<stdio.h>
+
+int main()
+{
+    int input ;
+    printf( "Input :\n" ) ;
+    scanf( "%d", &input ) ;
+
+    if ( input >= 0 )
+    {
+        printf( "Positive" ) ;
+    }
+    else if ( input < 0 )
+    {
+        printf( "Negative" ) ;
+    }
+    
+    return 0;
+}
